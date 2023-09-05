@@ -1,0 +1,743 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mdb:MD_Metadata xmlns:mdb="http://standards.iso.org/iso/19115/-3/mdb/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cat="http://standards.iso.org/iso/19115/-3/cat/1.0" xmlns:gfc="http://standards.iso.org/iso/19110/gfc/1.1" xmlns:cit="http://standards.iso.org/iso/19115/-3/cit/1.0" xmlns:gcx="http://standards.iso.org/iso/19115/-3/gcx/1.0" xmlns:gex="http://standards.iso.org/iso/19115/-3/gex/1.0" xmlns:lan="http://standards.iso.org/iso/19115/-3/lan/1.0" xmlns:srv="http://standards.iso.org/iso/19115/-3/srv/2.0" xmlns:mas="http://standards.iso.org/iso/19115/-3/mas/1.0" xmlns:mcc="http://standards.iso.org/iso/19115/-3/mcc/1.0" xmlns:mco="http://standards.iso.org/iso/19115/-3/mco/1.0" xmlns:mda="http://standards.iso.org/iso/19115/-3/mda/1.0" xmlns:mds="http://standards.iso.org/iso/19115/-3/mds/1.0" xmlns:mdt="http://standards.iso.org/iso/19115/-3/mdt/1.0" xmlns:mex="http://standards.iso.org/iso/19115/-3/mex/1.0" xmlns:mmi="http://standards.iso.org/iso/19115/-3/mmi/1.0" xmlns:mpc="http://standards.iso.org/iso/19115/-3/mpc/1.0" xmlns:mrc="http://standards.iso.org/iso/19115/-3/mrc/1.0" xmlns:mrd="http://standards.iso.org/iso/19115/-3/mrd/1.0" xmlns:mri="http://standards.iso.org/iso/19115/-3/mri/1.0" xmlns:mrl="http://standards.iso.org/iso/19115/-3/mrl/1.0" xmlns:mrs="http://standards.iso.org/iso/19115/-3/mrs/1.0" xmlns:msr="http://standards.iso.org/iso/19115/-3/msr/1.0" xmlns:mdq="http://standards.iso.org/iso/19157/-2/mdq/1.0" xmlns:mac="http://standards.iso.org/iso/19115/-3/mac/1.0" xmlns:gco="http://standards.iso.org/iso/19115/-3/gco/1.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:geonet="http://www.fao.org/geonetwork">
+<mdb:metadataIdentifier>
+	<mcc:MD_Identifier>
+		<mcc:code>
+			<gco:CharacterString>CONAE_PRD_AQUA_MODIS_EVI_20200303_183100812</gco:CharacterString> 
+		</mcc:code>
+		<mcc:codeSpace>
+			<gco:CharacterString>urn:uuid</gco:CharacterString>
+		</mcc:codeSpace>
+	</mcc:MD_Identifier>
+</mdb:metadataIdentifier>
+<mdb:defaultLocale>
+	<lan:PT_Locale id="SPA">
+	<lan:language>
+		<lan:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="spa"/>
+	</lan:language>
+		<lan:characterEncoding>
+			<lan:MD_CharacterSetCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8"/>
+		</lan:characterEncoding>
+	</lan:PT_Locale>
+</mdb:defaultLocale>
+<mdb:metadataScope>
+	<mdb:MD_MetadataScope>
+		<mdb:resourceScope>
+		<mcc:MD_ScopeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset"/>
+		</mdb:resourceScope>
+	</mdb:MD_MetadataScope>
+</mdb:metadataScope>
+<mdb:contact>
+	<cit:CI_Responsibility>
+		<cit:role>
+			<cit:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="pointOfContact">pointOfContact</cit:CI_RoleCode>
+		</cit:role>
+	<cit:party>
+		<cit:CI_Organisation>
+			<cit:name>
+				<gco:CharacterString>CONAE - Atención al Usuario</gco:CharacterString>
+			</cit:name>
+				<cit:contactInfo>
+				<cit:CI_Contact>
+					<cit:address>
+						<cit:CI_Address>
+								<cit:deliveryPoint>
+							<gco:CharacterString>Av. Paseo Colón 751</gco:CharacterString>
+								</cit:deliveryPoint>
+							<cit:city>
+								<gco:CharacterString>CABA</gco:CharacterString>
+							</cit:city>
+							<cit:postalCode>
+								<gco:CharacterString>1063</gco:CharacterString>
+							</cit:postalCode>
+							<cit:country>
+								<gco:CharacterString>Argentina</gco:CharacterString>
+							</cit:country>
+							<cit:electronicMailAddress>
+								<gco:CharacterString>atencionusuario@conae.gov.ar</gco:CharacterString>
+							</cit:electronicMailAddress>
+						</cit:CI_Address>
+					</cit:address>
+				</cit:CI_Contact>
+				</cit:contactInfo>
+		</cit:CI_Organisation>
+	</cit:party>
+	</cit:CI_Responsibility>
+</mdb:contact>
+<mdb:dateInfo>
+	<cit:CI_Date>
+		<cit:date>
+	<gco:DateTime>2020-03-03T19:00:06</gco:DateTime> 
+		</cit:date>
+		<cit:dateType>
+			<cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
+		</cit:dateType>
+	</cit:CI_Date>
+</mdb:dateInfo>
+<mdb:metadataStandard>
+	<cit:CI_Citation>
+		<cit:title>
+			<gco:CharacterString>Perfil metadato CONAE - ISO 19115-3</gco:CharacterString>
+		</cit:title>
+		<cit:alternateTitle>
+			<gco:CharacterString>Metadatos raster - 2018 - V1</gco:CharacterString>
+		</cit:alternateTitle>
+	</cit:CI_Citation>
+</mdb:metadataStandard>
+<mdb:metadataLinkage>
+	<cit:CI_OnlineResource>
+		<cit:linkage>
+		<gco:CharacterString>
+		</gco:CharacterString> 
+		</cit:linkage>
+		<cit:function>
+		<cit:CI_OnLineFunctionCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="completeMetadata"/>
+		</cit:function>
+	</cit:CI_OnlineResource>
+</mdb:metadataLinkage>
+<mdb:spatialRepresentationInfo>
+	<msr:MD_Georectified>
+		<msr:numberOfDimensions>
+			<gco:Integer>2</gco:Integer>
+		</msr:numberOfDimensions>
+		<msr:axisDimensionProperties>
+			<msr:MD_Dimension>
+				<msr:dimensionName>
+				<msr:MD_DimensionNameTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_DimensionNameTypeCode" codeListValue="column"/>
+				</msr:dimensionName>
+				<msr:dimensionSize>
+					<gco:Integer>0</gco:Integer> 
+				</msr:dimensionSize>
+				<msr:resolution>
+				<gco:Length uom="m">1000</gco:Length> 
+				</msr:resolution>
+				<msr:dimensionTitle>
+				<gco:CharacterString>columnas</gco:CharacterString>
+				</msr:dimensionTitle>
+			</msr:MD_Dimension>
+		</msr:axisDimensionProperties>
+		<msr:axisDimensionProperties>
+			<msr:MD_Dimension>
+				<msr:dimensionName>
+					<msr:MD_DimensionNameTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_DimensionNameTypeCode"
+                                                codeListValue="row"/>
+				</msr:dimensionName>
+				<msr:dimensionSize>
+					<gco:Integer>0</gco:Integer> 
+				</msr:dimensionSize>
+				<msr:resolution>
+					<gco:Length uom="m">1000</gco:Length>
+				</msr:resolution>
+				<msr:dimensionTitle>
+					<gco:CharacterString>filas</gco:CharacterString>
+				</msr:dimensionTitle>
+			</msr:MD_Dimension>
+		</msr:axisDimensionProperties>
+		<msr:cellGeometry>
+			<msr:MD_CellGeometryCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_CellGeometryCode"
+                                     codeListValue="area"/>
+		</msr:cellGeometry>
+		<msr:transformationParameterAvailability/>        
+		<msr:checkPointAvailability/>
+		<msr:cornerPoints gco:nilReason="missing"/>        
+		<msr:cornerPoints gco:nilReason="missing"/>        
+		<msr:cornerPoints gco:nilReason="missing"/>         
+		<msr:cornerPoints gco:nilReason="missing"/>         
+		<msr:centrePoint gco:nilReason="missing"/>
+		<msr:pointInPixel gco:nilReason="unknown"/>
+	</msr:MD_Georectified>
+</mdb:spatialRepresentationInfo>
+<mdb:referenceSystemInfo>
+		<mrs:MD_ReferenceSystem>
+			<mrs:referenceSystemIdentifier>
+				<mcc:MD_Identifier>
+					<mcc:authority>
+						<cit:CI_Citation>
+							<cit:title>
+								<gco:CharacterString>Sistema Geográfico Mundial</gco:CharacterString> 
+							</cit:title>
+						</cit:CI_Citation>
+					</mcc:authority>
+					<mcc:code>
+						<gco:CharacterString>EPSG:4326(WGS84)</gco:CharacterString> 
+					</mcc:code>
+				</mcc:MD_Identifier>
+			</mrs:referenceSystemIdentifier>
+		</mrs:MD_ReferenceSystem>
+</mdb:referenceSystemInfo>
+<mdb:identificationInfo>
+	<mri:MD_DataIdentification>
+		<mri:citation>
+				<cit:CI_Citation>
+					<cit:title>
+					<gco:CharacterString>CONAE_MODIS_EVI_2020-03-03_18:31:00</gco:CharacterString> 
+					</cit:title>
+					<cit:date>
+					<cit:CI_Date>
+						<cit:date>
+							<gco:DateTime>2020-03-03T18:31:00</gco:DateTime>
+						</cit:date>
+						<cit:dateType>
+							<cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">
+						</cit:CI_DateTypeCode>
+						</cit:dateType>
+					</cit:CI_Date>
+					</cit:date>
+					<cit:series>
+						<cit:CI_Series>
+							<cit:name>
+									<gco:CharacterString>Serie de productos derivados - Índices espectrales: EVI-Diarios del Sensor MODIS</gco:CharacterString>
+							</cit:name>
+							<cit:issueIdentification>
+									<gco:CharacterString>EVI-MODIS</gco:CharacterString>
+							</cit:issueIdentification>
+							<cit:page>
+								<gco:CharacterString>https://catalogos.conae.gov.ar/modis_imapp/search_date.aspx?tipoProducto=INDICE%20DE%20VEGETACI%C3%93N%20MEJORADO%20(EVI)</gco:CharacterString>
+							</cit:page>
+						</cit:CI_Series>
+					</cit:series>
+				</cit:CI_Citation>
+			</mri:citation>
+		<mri:abstract>
+				<gco:CharacterString>Índice espectral realizado a partir de imágenes diarias tomadas por el sensor MODIS. Los índices de vegetación están diseñados para proporcionar una consistente comparación tanto espacial como temporal de las condiciones de la vegetación. Para calcular el Indice de Vegetación Mejorado (EVI) se optimizó el NDVI aumentando la sensibilidad en las regiones de alta biomasa y se mejoró el monitoreo de la vegetación mediante la disociación de la señal del fondo del dosel y una reducción de la influencia atmosférica. Se incorpora al algoritmo un coeficiente de ajuste del fondo del dosel, un factor de ganancia y coeficientes de resistencia de aerosoles. La proyección del producto es EPSG: 4326 y el formato del mapa es GeoTIFF.
+				</gco:CharacterString>
+		</mri:abstract>
+		<mri:purpose>
+			<gco:CharacterString>
+			Proporcionar información para el estudio de procesos globales tales como el cambio en los usos del suelo, el estado de la vegetación, etc.
+			</gco:CharacterString>
+		</mri:purpose>
+		<mri:credit>
+			<gco:CharacterString>CONAE</gco:CharacterString> 
+		</mri:credit>
+		<mri:status>
+		<mcc:MD_ProgressCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_ProgressCode" codeListValue="completed"/>
+		</mri:status>
+		<mri:pointOfContact>
+				<cit:CI_Responsibility>
+					<cit:role>
+						<cit:CI_RoleCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/cat/codelists.xml#CI_RoleCode" codeListValue="originator"/>
+					</cit:role>
+					<cit:party>
+						<cit:CI_Organisation>
+							<cit:name>
+							<gco:CharacterString>CONAE - CUSS</gco:CharacterString>
+							</cit:name>
+							<cit:contactInfo>
+							<cit:CI_Contact>
+								<cit:phone>
+									<cit:CI_Telephone>
+									<cit:number>
+										<gco:CharacterString>"+543547400000 ext 1555"</gco:CharacterString>
+									</cit:number>
+									<cit:numberType>
+										<cit:CI_TelephoneTypeCode codeList="codeListLocation#CI_TelephoneTypeCode" codeListValue="voice">voice</cit:CI_TelephoneTypeCode>
+									</cit:numberType>
+									</cit:CI_Telephone>
+								</cit:phone>
+								<cit:address>
+									<cit:CI_Address>
+									<cit:deliveryPoint>
+										<gco:CharacterString>Centro Espacial T. Tabanera  </gco:CharacterString>
+									</cit:deliveryPoint>
+									<cit:city>
+										<gco:CharacterString>Falda del Cañete (prov. Córdoba)</gco:CharacterString>
+									</cit:city>
+									<cit:postalCode>
+										<gco:CharacterString>5187</gco:CharacterString>
+									</cit:postalCode>
+									<cit:country>
+										<gco:CharacterString>Argentina</gco:CharacterString>
+									</cit:country>
+									<cit:electronicMailAddress>
+										<gco:CharacterString>cuss@conae.gov.ar</gco:CharacterString>
+									</cit:electronicMailAddress>
+									</cit:CI_Address>
+								</cit:address>
+							</cit:CI_Contact>
+							</cit:contactInfo>
+							<cit:individual>
+							<cit:CI_Individual>
+								<cit:name>
+									<gco:CharacterString>CUSS-Planificación</gco:CharacterString>
+								</cit:name>
+								<cit:positionName>
+									<gco:CharacterString>Técnico</gco:CharacterString>
+								</cit:positionName>
+							</cit:CI_Individual>
+							</cit:individual>
+						</cit:CI_Organisation>
+					</cit:party>
+				</cit:CI_Responsibility>
+		</mri:pointOfContact>
+		<mri:pointOfContact>
+			<cit:CI_Responsibility>
+				<cit:role>
+						<cit:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="publisher">publisher</cit:CI_RoleCode>
+				</cit:role>
+					<cit:party>
+						<cit:CI_Organisation>
+							<cit:name>
+							<gco:CharacterString>CONAE - Unidad de Sistemas de Información</gco:CharacterString>
+							</cit:name>
+							<cit:contactInfo>
+								<cit:CI_Contact>
+									<cit:phone>
+									<cit:CI_Telephone>
+									<cit:number>
+										<gco:CharacterString>"+541143310074 ext 5311"</gco:CharacterString>
+									</cit:number>
+									<cit:numberType>
+										<cit:CI_TelephoneTypeCode codeList="codeListLocation#CI_TelephoneTypeCode" codeListValue="voice">voice</cit:CI_TelephoneTypeCode>
+									</cit:numberType>
+									</cit:CI_Telephone>
+									</cit:phone>
+								<cit:address>
+									<cit:CI_Address>
+									<cit:deliveryPoint>
+										<gco:CharacterString>Av. Paseo Colón 751</gco:CharacterString>
+									</cit:deliveryPoint>
+									<cit:city>
+										<gco:CharacterString>CABA</gco:CharacterString>
+									</cit:city>
+									<cit:postalCode>
+										<gco:CharacterString>1063</gco:CharacterString>
+									</cit:postalCode>
+									<cit:country>
+										<gco:CharacterString>Argentina</gco:CharacterString>
+									</cit:country>
+									<cit:electronicMailAddress>
+										<gco:CharacterString>geoservicios@conae.gov.ar</gco:CharacterString>
+									</cit:electronicMailAddress>
+									</cit:CI_Address>
+								</cit:address>
+								</cit:CI_Contact>
+							</cit:contactInfo>
+							<cit:individual>
+							<cit:CI_Individual>
+								<cit:name>
+								<gco:CharacterString>Unidad de Sistemas de Información</gco:CharacterString> 
+								</cit:name>
+								<cit:positionName>
+									<gco:CharacterString>Técnico</gco:CharacterString> 
+								</cit:positionName>
+							</cit:CI_Individual>
+							</cit:individual>
+						</cit:CI_Organisation>
+					</cit:party>
+			</cit:CI_Responsibility>
+		</mri:pointOfContact>
+		<mri:spatialRepresentationType>
+		<mcc:MD_SpatialRepresentationTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_SpatialRepresentationTypeCode" codeListValue="grid"/>
+		</mri:spatialRepresentationType>
+		<mri:spatialResolution>
+			<mri:MD_Resolution>
+				<mri:equivalentScale>
+					<mri:MD_RepresentativeFraction>
+						<mri:denominator>
+							<gco:Integer>1500000</gco:Integer>
+						</mri:denominator>
+					</mri:MD_RepresentativeFraction>
+				</mri:equivalentScale>
+			</mri:MD_Resolution>
+		</mri:spatialResolution>
+		<mri:spatialResolution>
+			<mri:MD_Resolution>
+				<mri:levelOfDetail>
+					<gco:CharacterString>
+					Escala de trabajo aproximada 1:1500000, lo que equivale a una resolución de pixel de 1 km.
+					</gco:CharacterString>
+				</mri:levelOfDetail>
+			</mri:MD_Resolution>
+		</mri:spatialResolution>
+		<mri:topicCategory>
+			<mri:MD_TopicCategoryCode>imageryBaseMapsEarthCover</mri:MD_TopicCategoryCode>
+		</mri:topicCategory>
+		<mri:topicCategory>
+			<mri:MD_TopicCategoryCode>environment</mri:MD_TopicCategoryCode>
+		</mri:topicCategory>
+		<mri:extent>
+			<gex:EX_Extent>
+				<gex:geographicElement>
+					<gex:EX_GeographicBoundingBox>
+					<gex:westBoundLongitude>
+					<gco:Decimal>-88.828031262098</gco:Decimal> 
+					</gex:westBoundLongitude>
+					<gex:eastBoundLongitude>
+					<gco:Decimal>-44.0351970102091</gco:Decimal> 
+					</gex:eastBoundLongitude>
+					<gex:southBoundLatitude>
+					<gco:Decimal>-56.9466249414143</gco:Decimal> 
+					</gex:southBoundLatitude>
+					<gex:northBoundLatitude>
+					<gco:Decimal>-8.05044011065386</gco:Decimal> 
+					</gex:northBoundLatitude>
+					</gex:EX_GeographicBoundingBox>
+				</gex:geographicElement>
+			</gex:EX_Extent>
+		</mri:extent>
+		<mri:resourceMaintenance>
+			<mmi:MD_MaintenanceInformation>
+				<mmi:maintenanceAndUpdateFrequency>
+					<mmi:MD_MaintenanceFrequencyCode codeListValue="asNeeded" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_MaintenanceFrequencyCode"/>
+				</mmi:maintenanceAndUpdateFrequency>
+			</mmi:MD_MaintenanceInformation>
+		</mri:resourceMaintenance>
+		<mri:graphicOverview>
+			<mcc:MD_BrowseGraphic>
+				<mcc:fileName>
+					<gco:CharacterString>https://geocatalogostest.conae.gov.ar/prd/aqua/modis/evi/20200303/CONAE_PRD_AQUA_MODIS_EVI_20200303_183100812_TH.jpg
+					</gco:CharacterString>
+				</mcc:fileName>
+				<mcc:fileDescription>
+					<gco:CharacterString>thumbnail</gco:CharacterString> 
+				</mcc:fileDescription>
+			</mcc:MD_BrowseGraphic>
+		</mri:graphicOverview>
+		<mri:graphicOverview>
+			<mcc:MD_BrowseGraphic>
+				<mcc:fileName>
+					<gco:CharacterString>https://geocatalogostest.conae.gov.ar/prd/aqua/modis/evi/20200303/CONAE_PRD_AQUA_MODIS_EVI_20200303_183100812_QL.jpg
+					</gco:CharacterString> 
+				</mcc:fileName>
+				<mcc:fileDescription>
+					<gco:CharacterString>large_thumbnail</gco:CharacterString>
+				</mcc:fileDescription>
+			</mcc:MD_BrowseGraphic>
+		</mri:graphicOverview>
+		<mri:descriptiveKeywords>
+			<mri:MD_Keywords>
+				<mri:keyword>
+					<gco:CharacterString>Sensores remotos</gco:CharacterString>
+				</mri:keyword>
+				<mri:type>
+					<mri:MD_KeywordTypeCode codeListValue="theme" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_KeywordTypeCode"/>
+				</mri:type>
+			</mri:MD_Keywords>
+		</mri:descriptiveKeywords>
+		<mri:descriptiveKeywords>
+			<mri:MD_Keywords>
+				<mri:keyword>
+					<gco:CharacterString>Imágenes satelitales</gco:CharacterString> 
+				</mri:keyword>
+				<mri:type>
+					<mri:MD_KeywordTypeCode codeListValue="theme" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_KeywordTypeCode"/>
+				</mri:type>
+			</mri:MD_Keywords>
+		</mri:descriptiveKeywords>
+		<mri:descriptiveKeywords>
+			<mri:MD_Keywords>
+				<mri:keyword>
+					<gco:CharacterString>Índices Espectrales</gco:CharacterString>
+				</mri:keyword>
+				<mri:type>
+					<mri:MD_KeywordTypeCode codeListValue="theme" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_KeywordTypeCode"/>
+				</mri:type>
+			</mri:MD_Keywords>
+		</mri:descriptiveKeywords>
+		<mri:descriptiveKeywords>
+			<mri:MD_Keywords>
+			<mri:keyword>
+			<gco:CharacterString>aqua</gco:CharacterString>
+			</mri:keyword>
+			<mri:type>
+			<mri:MD_KeywordTypeCode codeListValue="platform" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_KeywordTypeCode"/>
+			</mri:type>
+			</mri:MD_Keywords>
+		</mri:descriptiveKeywords>
+		<mri:descriptiveKeywords>
+		<mri:MD_Keywords>
+			<mri:keyword>
+				<gco:CharacterString>MODIS</gco:CharacterString> 
+			</mri:keyword>
+			<mri:type>
+				<mri:MD_KeywordTypeCode codeListValue="instrument" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_KeywordTypeCode"/>
+			</mri:type>
+		</mri:MD_Keywords>
+		</mri:descriptiveKeywords>
+		<mri:resourceConstraints>
+			<mco:MD_LegalConstraints>
+				<mco:accessConstraints>
+					<mco:MD_RestrictionCode codeListValue="copyright" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_RestrictionCode"/>
+				</mco:accessConstraints>
+				<mco:useConstraints>
+					<mco:MD_RestrictionCode codeListValue="unrestricted" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_RestrictionCode"/>
+				</mco:useConstraints>
+				<mco:otherConstraints>
+					<gco:CharacterString>Libre Distribución</gco:CharacterString>
+				</mco:otherConstraints>
+			</mco:MD_LegalConstraints>
+		</mri:resourceConstraints>
+		<mri:defaultLocale>
+			<lan:PT_Locale>
+				<lan:language>
+					<lan:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="spa"/>
+				</lan:language>
+				<lan:country>
+					<lan:CountryCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CountryCode" codeListValue="ISO3166-2:AR"/>
+				</lan:country>
+				<lan:characterEncoding>
+					<lan:MD_CharacterSetCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8"/>
+				</lan:characterEncoding>
+			</lan:PT_Locale>
+		</mri:defaultLocale>
+		<mri:otherLocale>
+			<lan:PT_Locale>
+				<lan:language>
+					<lan:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng"/>
+				</lan:language>
+				<lan:characterEncoding>
+					<lan:MD_CharacterSetCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_CharacterSetCode"
+                                           codeListValue="utf8"/>
+				</lan:characterEncoding>
+			</lan:PT_Locale>
+		</mri:otherLocale>
+		<mri:supplementalInformation>
+			<gco:CharacterString>Metadato Original: aqua_modis_20200303_1831_evi.txt</gco:CharacterString>
+		</mri:supplementalInformation>
+	</mri:MD_DataIdentification>
+</mdb:identificationInfo>
+<mdb:contentInfo>
+	<mrc:MD_FeatureCatalogueDescription>
+		<mrc:featureCatalogueCitation>
+			<cit:CI_Citation>
+				<cit:title>
+				<gco:CharacterString>Catálogo de imágenes de CONAE - MODIS</gco:CharacterString> 
+				</cit:title>
+				<cit:onlineResource>
+					<cit:CI_OnlineResource>
+						<cit:linkage>
+						<gco:CharacterString>
+						https://catalogos.conae.gov.ar/modis_imapp
+						</gco:CharacterString>
+						</cit:linkage>
+						<cit:protocol>
+						<gco:CharacterString>WWW:LINK-1.0-http--link</gco:CharacterString>
+						</cit:protocol>
+						<cit:name>
+						<gco:CharacterString>Recurso para consulta</gco:CharacterString>
+						</cit:name>
+						<cit:description>
+						<gco:CharacterString>El presente catálogo se puede consultar en la página web de CONAE y descargar sus productos mediante login para usuarios registrados.</gco:CharacterString>
+						</cit:description>
+						<cit:function>
+						<cit:CI_OnLineFunctionCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="search"/>
+						</cit:function> 
+					</cit:CI_OnlineResource>
+				</cit:onlineResource>
+			</cit:CI_Citation>
+		</mrc:featureCatalogueCitation>
+	</mrc:MD_FeatureCatalogueDescription>
+</mdb:contentInfo>
+<mdb:contentInfo>
+	<mrc:MD_CoverageDescription>
+		<mrc:attributeDescription>
+			<gco:RecordType>EVI - Modis Diario</gco:RecordType>
+		</mrc:attributeDescription>
+		<mrc:processingLevelCode>
+			<mcc:MD_Identifier>
+				<mcc:code>
+					<gco:CharacterString>L2</gco:CharacterString>
+				</mcc:code>
+			</mcc:MD_Identifier>
+		</mrc:processingLevelCode>
+		<mrc:attributeGroup>
+			<mrc:MD_AttributeGroup>
+				<mrc:contentType>
+					<mrc:MD_CoverageContentTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_CoverageContentTypeCode"
+                                                  codeListValue="physicalMeasurement"/>
+				</mrc:contentType>
+				<mrc:attribute>
+					<mrc:MD_SampleDimension>
+					<mrc:sequenceIdentifier>
+						<gco:MemberName>
+							<gco:aName>
+								<gco:CharacterString>Índice de Vegetación (IV)</gco:CharacterString>
+							</gco:aName>
+							<gco:attributeType>
+								<gco:TypeName>
+								<gco:aName>
+									<gco:CharacterString>FLOAT</gco:CharacterString>
+								</gco:aName>
+								</gco:TypeName>
+							</gco:attributeType>
+						</gco:MemberName>
+					</mrc:sequenceIdentifier>
+					<mrc:description>
+						<gco:CharacterString>Valores sin dimensión</gco:CharacterString>
+					</mrc:description> 
+					<mrc:maxValue>
+						<gco:Real>1</gco:Real>
+					</mrc:maxValue>
+					<mrc:minValue>
+						<gco:Real>-1</gco:Real>
+					</mrc:minValue>
+					<mrc:scaleFactor>
+                        <gco:Real>0</gco:Real>
+					</mrc:scaleFactor>
+					<mrc:otherPropertyType>
+						<gco:RecordType>no dato = -999</gco:RecordType>
+					</mrc:otherPropertyType>
+					</mrc:MD_SampleDimension>
+				</mrc:attribute>
+			</mrc:MD_AttributeGroup>
+		</mrc:attributeGroup>
+	</mrc:MD_CoverageDescription>
+</mdb:contentInfo>
+<mdb:distributionInfo>
+	<mrd:MD_Distribution>
+		<mrd:distributionFormat>
+			<mrd:MD_Format>
+				<mrd:formatSpecificationCitation>
+					<cit:CI_Citation>
+						<cit:title>
+							<gco:CharacterString>geotif</gco:CharacterString> 
+						</cit:title>
+						<cit:date>
+							<cit:CI_Date>
+								<cit:date>
+								<gco:DateTime>2020-03-03T19:00:06</gco:DateTime> 
+								</cit:date>
+								<cit:dateType>
+								<cit:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication"/>
+								</cit:dateType>
+							</cit:CI_Date>
+						</cit:date>
+					</cit:CI_Citation>
+				</mrd:formatSpecificationCitation>
+			</mrd:MD_Format>
+		</mrd:distributionFormat>
+		<mrd:transferOptions>
+			<mrd:MD_DigitalTransferOptions>
+				<mrd:onLine>
+					<cit:CI_OnlineResource>
+						<cit:linkage>
+							<gco:CharacterString>https://catalogos.conae.gov.ar/modis_imapp/find.aspx?ImageId=aqua_modis_20200303_1831_evi
+							</gco:CharacterString> 
+						</cit:linkage>
+						<cit:protocol>
+								<gco:CharacterString>WWW:LINK-1.0-http--link</gco:CharacterString>
+						</cit:protocol>
+						<cit:name>
+							<gco:CharacterString>Recurso para Descargar</gco:CharacterString>
+						</cit:name>
+						<cit:description>
+							<gco:CharacterString>
+							La información se puede obtener mediante la descarga directa desde internet.
+							</gco:CharacterString>
+						</cit:description>
+						<cit:function>
+							<cit:CI_OnLineFunctionCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="download"/>
+						</cit:function>
+					</cit:CI_OnlineResource>
+				</mrd:onLine>
+				<mrd:onLine>
+					<cit:CI_OnlineResource>
+						<cit:linkage>
+							<gco:CharacterString>https://geodescargas.conae.gov.ar/descargas/productos/CONAE_PRD_AQUA_MODIS_EVI_20200303_183100812.zip</gco:CharacterString>
+						</cit:linkage>
+						<cit:protocol>
+							<gco:CharacterString>WWW:LINK-1.0-http--link</gco:CharacterString>
+						</cit:protocol>
+						<cit:name>
+							<gco:CharacterString>Recurso para Descargar</gco:CharacterString>
+						</cit:name>
+						<cit:description>
+							<gco:CharacterString>La información se puede obtener mediante la descarga directa desde internet.</gco:CharacterString>
+						</cit:description>
+						<cit:function>
+							<cit:CI_OnLineFunctionCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_OnLineFunctionCode"
+                                                   codeListValue="download"/>
+						</cit:function>
+					</cit:CI_OnlineResource>
+				</mrd:onLine>
+			</mrd:MD_DigitalTransferOptions>
+		</mrd:transferOptions>
+	</mrd:MD_Distribution>
+</mdb:distributionInfo>
+<mdb:dataQualityInfo/>
+<mdb:acquisitionInformation>
+	<mac:MI_AcquisitionInformation>
+		<mac:operation>
+			<mac:MI_Operation>
+				<mac:citation>
+					<cit:CI_Citation>
+					<cit:title>
+						<gco:CharacterString>NASA</gco:CharacterString> 
+					</cit:title>
+					</cit:CI_Citation>
+				</mac:citation>
+				<mac:status>
+					<mcc:MD_ProgressCode codeListValue="onGoing"
+                                       codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_ProgressCode"/>
+				</mac:status>
+			</mac:MI_Operation>
+		</mac:operation>
+				<mac:platform>
+					<mac:MI_Platform>
+				<mac:identifier>
+					<mcc:MD_Identifier>
+					<mcc:code>
+						<gco:CharacterString>aqua</gco:CharacterString> 
+					</mcc:code>
+					</mcc:MD_Identifier>
+				</mac:identifier>
+				<mac:description>
+                  <gco:CharacterString>El sensor MODIS (Moderate Resolution Imaging Spectroradiometer) es un instrumento que viaja a bordo de los satélites de Terra (EOS a.m.) y del Aqua (EOS p.m.). La órbita de Terra alrededor de la tierra viaja del norte al sur cruzando el Ecuador por la mañana, mientras que el Aqua viaja del sur al norte cruzando el Ecuador por la tarde. Terra-MODIS y Aqua-MODIS cubren la superficie de la tierra cada 1 a 2 días, adquiriendo datos en 36 bandas espectrales (ver especificaciones técnicas de MODIS).</gco:CharacterString>
+				</mac:description>
+				<mac:sponsor>
+				<cit:CI_Responsibility>
+					<cit:role>
+						<cit:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode"
+                                         codeListValue="resourceProvider"/>
+					</cit:role>
+					<cit:party>
+						<cit:CI_Organisation>
+							<cit:name>
+								<gco:CharacterString>NASA</gco:CharacterString> 
+							</cit:name>
+						</cit:CI_Organisation>
+					</cit:party>
+				</cit:CI_Responsibility>
+				</mac:sponsor>
+				<mac:instrument>
+					<mac:MI_Instrument>
+					<mac:citation>
+						<cit:CI_Citation>
+						<cit:title>
+							<gco:CharacterString>Moderate-Resolution Imaging Spectroradiometer</gco:CharacterString>
+						</cit:title>
+						</cit:CI_Citation>
+					</mac:citation>
+					<mac:identifier>
+						<mcc:MD_Identifier>
+						<mcc:code>
+							<gco:CharacterString>modis</gco:CharacterString> 
+						</mcc:code>
+						</mcc:MD_Identifier>
+					</mac:identifier>
+					<mac:type>
+						<gco:CharacterString>óptico</gco:CharacterString>
+					</mac:type>
+					</mac:MI_Instrument>
+				</mac:instrument>
+					</mac:MI_Platform>
+				</mac:platform>
+		<mac:acquisitionPlan>
+			<mac:MI_Plan>
+				<mac:status>
+					<mcc:MD_ProgressCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_ProgressCode"
+                                       codeListValue="onGoing"/>
+				</mac:status>
+				<mac:citation>
+					<cit:CI_Citation>
+						<cit:title>
+							<gco:CharacterString>Orbita: 94852 -  ASC Día</gco:CharacterString> 
+						</cit:title>
+					</cit:CI_Citation>
+				</mac:citation>
+			</mac:MI_Plan>
+		</mac:acquisitionPlan>
+	</mac:MI_AcquisitionInformation>
+</mdb:acquisitionInformation>
+</mdb:MD_Metadata>
