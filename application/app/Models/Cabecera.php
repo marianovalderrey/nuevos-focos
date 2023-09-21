@@ -34,4 +34,8 @@ class Cabecera extends Model
     public function puntos (): HasMany {
         return $this->hasMany(Punto::class, "idCabecera", "idCabecera");
     }
+
+    public function getIdCabecera (){
+        return $this->idCabecera;
+    }
 }
